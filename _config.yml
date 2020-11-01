@@ -12,6 +12,16 @@ header_pages:
   - index.md
   - staff.md
   - papers.md
-  # - data.md
+  - data.md
+
+defaults:
+  - scope:
+      path: "assets/2018"
+    values:
+      year: 2018
+  - scope:
+      path: "assets/2019"
+    values:
+      year: 2019
 
 theme: minima
