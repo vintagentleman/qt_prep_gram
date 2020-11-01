@@ -10,7 +10,7 @@ copyright: 2019–2020 &copy; Кафедра математической лин
 
 header_pages:
   - index.md
-  # - staff.md
+  - staff.md
   # - papers.md
   # - data.md
 
