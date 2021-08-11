@@ -4,12 +4,12 @@ title: Материалы
 permalink: /data/
 ---
 
-## 2018 г.
+## 2020 г.
 
-{% assign assets = site.static_files | where: "year", 2018 %}
+{% assign assets = site.static_files | where: "year", 2020 %}
 <ul>
   {% for asset in assets %}
-  <li><a href="{{ asset.path | relative_url }}">{{site.data.data["2018"][asset.basename]}}</a></li>
+  <li><a href="{{ asset.path | relative_url }}">{{site.data.data["2020"][asset.basename]}}</a></li>
   {% endfor %}
 </ul>
 
@@ -19,5 +19,14 @@ permalink: /data/
 <ul>
   {% for asset in assets %}
   <li><a href="{{ asset.path | relative_url }}">{{site.data.data["2019"][asset.basename]}}</a></li>
+  {% endfor %}
+</ul>
+
+## 2018 г.
+
+{% assign assets = site.static_files | where: "year", 2018 %}
+<ul>
+  {% for asset in assets %}
+  <li><a href="{{ asset.path | relative_url }}">{{site.data.data["2018"][asset.basename]}}</a></li>
   {% endfor %}
 </ul>

@@ -25,6 +25,10 @@ defaults:
       path: "assets/data/2019"
     values:
       year: 2019
+  - scope:
+      path: "assets/data/2020"
+    values:
+      year: 2020
 
 theme: minima
 
