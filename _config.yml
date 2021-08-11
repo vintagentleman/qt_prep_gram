@@ -16,11 +16,11 @@ header_pages:
 
 defaults:
   - scope:
-      path: "assets/2018"
+      path: "assets/data/2018"
     values:
       year: 2018
   - scope:
-      path: "assets/2019"
+      path: "assets/data/2019"
     values:
       year: 2019
 
