@@ -25,3 +25,6 @@ defaults:
       year: 2019
 
 theme: minima
+
+plugins:
+  - jekyll-tabs
