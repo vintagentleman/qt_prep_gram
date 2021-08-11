@@ -1,0 +1,11 @@
+<ul class="tab" data-tab="tabs" data-name="{{ include.name }}">
+  <li class="active">
+    <a href="#">{{ include.tabs | split: "," | first }}</a>
+  </li>
+  {% assign tabs = include.tabs | split: "," | slice: 1, tabs.size - 1 %}
+  {%- for tab in tabs -%}
+  <li>
+    <a href="#">{{ tab }}</a>
+  </li>
+  {%- endfor -%}
+</ul>

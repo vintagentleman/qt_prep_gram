@@ -31,6 +31,3 @@ defaults:
       year: 2020
 
 theme: minima
-
-plugins:
-  - jekyll-tabs
