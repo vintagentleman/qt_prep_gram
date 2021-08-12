@@ -1,27 +1,37 @@
 ---
 title: Квантитативная грамматика русских предложных конструкций
-subtitle: Проект РФФИ 17-29-09159 офи_м
+subtitle: |-
+  Quantitative grammar of Russian prepositional constructions
+  Проект РФФИ 17-29-09159 офи_м
+notice: >-
+  Интерфейс взаимодействия с базами данных (Банк предложных конструкций и Банк русских предлогов)
+  доступен по ссылке: <a href="https://www.predlogy.ru">https://www.predlogy.ru</a>
 
 description: >-
   Информационный сайт проекта РФФИ 17-29-09159 офи_м
   «Квантитативная грамматика русских предложных конструкций»,
   разработанного на кафедре математической лингвистики СПбГУ.
-copyright: 2019–2020 &copy; Кафедра математической лингвистики СПбГУ
+copyright: 2019–2021 &copy; Кафедра математической лингвистики СПбГУ
 
 header_pages:
   - index.md
   - staff.md
   - papers.md
   - data.md
+  - corpora.md
 
 defaults:
   - scope:
-      path: "assets/2018"
+      path: "assets/data/2018"
     values:
       year: 2018
   - scope:
-      path: "assets/2019"
+      path: "assets/data/2019"
     values:
       year: 2019
+  - scope:
+      path: "assets/data/2020"
+    values:
+      year: 2020
 
 theme: minima

@@ -4,12 +4,20 @@ title: Публикации
 permalink: /papers/
 ---
 
-{% assign years = site.data.papers %}
+{% assign years = "2020,2019,2018" | split: "," %}
 {% for year in years %}
-  <h2>{{year[0]}} г.</h2>
-  <ul>
-    {% for paper in year[1] %}
-    <li><i>{{ paper.author }}</i> <b>{{ paper.title }}</b> // {{paper.edition}}.</li>
-    {% endfor %}
-  </ul>
+
+## {{ year }} г.
+
+<ul>
+  {% for paper in site.data.papers[year] %}
+  <li>
+    {% if paper.author %} <i>{{ paper.author }}</i> {% endif %}
+    <b>{{ paper.title }}</b>
+    // {{ paper.edition }}.
+    {% if paper.url %} URL: <a href="{{ paper.url }}">{{ paper.url }}</a> {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
 {% endfor %}
