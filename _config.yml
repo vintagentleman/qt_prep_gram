@@ -15,6 +15,7 @@ header_pages:
   - staff.md
   - papers.md
   - data.md
+  - corpora.md
 
 defaults:
   - scope:
