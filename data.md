@@ -12,7 +12,9 @@ permalink: /data/
 
 <ul>
   {% for asset in assets %}
+  {% if site.data.data[year][asset.basename] %}
   <li><a href="{{ asset.path | relative_url }}">{{ site.data.data[year][asset.basename] }}</a></li>
+  {% endif %}
   {% endfor %}
 </ul>
 
