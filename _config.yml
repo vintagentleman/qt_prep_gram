@@ -5,7 +5,7 @@ subtitle: |-
   Проект РФФИ 17-29-09159 офи_м
 notice: >-
   Интерфейс взаимодействия с базами данных (Банк предложных конструкций и Банк русских предлогов)
-  доступен по ссылке: <a href="https://www.predlogy.ru">https://www.predlogy.ru</a>
+  доступен по ссылке: <a href="https://www.predlogy.ru">www.predlogy.ru</a>
 
 description: >-
   Информационный сайт проекта РФФИ 17-29-09159 офи_м
@@ -35,3 +35,4 @@ defaults:
       year: 2020
 
 theme: minima
+markdown: CommonMarkGhPages

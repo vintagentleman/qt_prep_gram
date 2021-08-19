@@ -35,7 +35,7 @@ window.addEventListener("load", function () {
         const position = getChildPosition(liTab);
 
         tabContentElement
-          .querySelectorAll("li")
+          .querySelectorAll("li.tab-content-element")
           [position].classList.add("active");
         liTab.classList.add("active");
       },
